@@ -14,7 +14,7 @@ export const CandidateResume = () => {
       <WebSite />
       <div style={{ display: "flex" }}>
         <h3>Name-</h3>
-        <h4>Satheesh Kumar </h4>
+        <h4>Satheesh hi hello bye bye Kumar </h4>
         <h3>( SDE-2 )</h3>
       </div>
       <div style={{ display: "flex" }}>
