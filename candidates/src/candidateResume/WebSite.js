@@ -1,12 +1,19 @@
 import React from "react";
+import { Row, Col, Container } from "react-bootstrap";
 
 const WebSite = () => {
   return (
     <div>
-      <p>logo</p>
-      <p>
-        Website:<a href="https://getdefault.in/">getdefault.in</a>
-      </p>
+      <Container fluid>
+        <Row>
+          <Col>LOGO</Col>
+          <Col style={{ textAlign: "right" }}>
+            <span>
+              Website:<a href="https://getdefault.in/">getdefault.in</a>
+            </span>
+          </Col>
+        </Row>
+      </Container>
       <hr />
     </div>
   );

@@ -4,10 +4,10 @@ const ReachOut = () => {
   return (
     <div>
       <hr />
-      <p>
+      <span style={{ marginLeft: "35%" }}>
         Reach out to us at :
         <a href="mailto: hello@getdefault.in">hello@getdefault.in</a>{" "}
-      </p>
+      </span>
     </div>
   );
 };

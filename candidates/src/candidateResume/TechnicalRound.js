@@ -1,196 +1,172 @@
 import React from "react";
-import { Col, Row, Card } from "react-bootstrap";
+import { Col, Row, Card, Container } from "react-bootstrap";
 import { AiFillStar } from "react-icons/ai";
 
 const TechnicalRound = () => {
   return (
     <div>
       <h2>TechnicalRound</h2>
-      <Row xs={1} md={2} className="g-4">
-        {/* {Array.from({ length: 8 }).map((_, idx) => ( */}
-        <Col>
-          <Card>
-            <Card.Body>
-              <Card.Title>
-                CSS
-                <p>
-                  <AiFillStar />
-                  <AiFillStar />
-                  <AiFillStar />
-                </p>
-              </Card.Title>
-              <Card.Text>
-                He is well versed with usinf ViewGroups for creating layouts but
-                hasn't created custom view before
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        {/* ))} */}
-        <Col>
-          <Card>
-            <Card.Body>
-              <Card.Title>
-                HTML
-                <p>
-                  <AiFillStar />
-                  <AiFillStar />
-                  <AiFillStar />
-                </p>
-              </Card.Title>
-              <Card.Text>
-                He has somr knowledge about different kinds of Dispatchers and
-                scope
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card>
-            <Card.Body>
-              <Card.Title>
-                Data Structure
-                <p>
-                  <AiFillStar />
-                  <AiFillStar />
-                  <AiFillStar />
-                </p>
-              </Card.Title>
-              <Card.Text>
-                Could differentiate between types of services and explain ways
-                of communicating between services and main application
-                effectively.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card>
-            <Card.Body>
-              <Card.Title>
-                Life Cyle Methoids
-                <p>
-                  <AiFillStar />
-                  <AiFillStar />
-                  <AiFillStar />
-                </p>
-              </Card.Title>
-              <Card.Text>
-                Has implemented MVVM on multiple projects and knows about its
-                benefits for increasing testability.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card>
-            <Card.Body>
-              <Card.Title>
-                Hooks
-                <p>
-                  <AiFillStar />
-                  <AiFillStar />
-                  <AiFillStar />
-                </p>
-              </Card.Title>
-              <Card.Text>
-                Has implemented it on few projects and knows the broad
-                implementation.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card>
-            <Card.Body>
-              <Card.Title>
-                Global State Management
-                <p>
-                  <AiFillStar />
-                  <AiFillStar />
-                  <AiFillStar />
-                </p>
-              </Card.Title>
-              <Card.Text>
-                Has implemented it on few projects and knows the broad
-                implementation.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card>
-            <Card.Body>
-              <Card.Title>
-                Asynchronous Programming
-                <p>
-                  <AiFillStar />
-                  <AiFillStar />
-                  <AiFillStar />
-                </p>
-              </Card.Title>
-              <Card.Text>
-                Has implemented it on few projects and knows the broad
-                implementation.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card>
-            <Card.Body>
-              <Card.Title>
-                Writing Tests
-                <p>
-                  <AiFillStar />
-                  <AiFillStar />
-                  <AiFillStar />
-                </p>
-              </Card.Title>
-              <Card.Text>
-                Knows about unit testing as a concept but hasn't written a lot
-                of unit tests in production
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card>
-            <Card.Body>
-              <Card.Title>
-                Mocks
-                <p>
-                  <AiFillStar />
-                  <AiFillStar />
-                  <AiFillStar />
-                </p>
-              </Card.Title>
-              <Card.Text>
-                Has implemented it on few projects and knows the broad
-                implementation.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card>
-            <Card.Body>
-              <Card.Title>
-                SSR and SSG
-                <p>
-                  <AiFillStar />
-                  <AiFillStar />
-                  <AiFillStar />
-                </p>
-              </Card.Title>
-              <Card.Text>
-                Has implemented it on few projects and knows the broad
-                implementation.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
+
+      <Container fluid>
+        <Row>
+          <Col>
+            <Row>
+              <Col>CSS</Col>
+              <Col>
+                <AiFillStar />
+                <AiFillStar />
+                <AiFillStar />
+              </Col>
+            </Row>
+            <Row>
+              He is well versed with usinf ViewGroups for creating layouts but
+              hasn't created custom view before
+            </Row>
+          </Col>
+          <Col>
+            {" "}
+            <Row>
+              <Col>HTML</Col>
+              <Col>
+                <AiFillStar />
+                <AiFillStar />
+                <AiFillStar />
+              </Col>
+            </Row>
+            <Row>
+              He has somr knowledge about different kinds of Dispatchers and
+              scope
+            </Row>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col>
+            <Row>
+              <Col>Data Structure</Col>
+              <Col>
+                <AiFillStar />
+                <AiFillStar />
+                <AiFillStar />
+              </Col>
+            </Row>
+            <Row>
+              Could differentiate between types of services and explain ways of
+              communicating between services and main application effectively.
+            </Row>
+          </Col>
+          <Col>
+            {" "}
+            <Row>
+              <Col>Life Cycle Methods</Col>
+              <Col>
+                <AiFillStar />
+                <AiFillStar />
+                <AiFillStar />
+              </Col>
+            </Row>
+            <Row>
+              Has implemented MVVM on multiple projects and knows about its
+              benefits for increasing testability.
+            </Row>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col>
+            <Row>
+              <Col>Hooks</Col>
+              <Col>
+                <AiFillStar />
+                <AiFillStar />
+                <AiFillStar />
+              </Col>
+            </Row>
+            <Row>
+              Has implemented it on few projects and knows the broad
+              implementation.
+            </Row>
+          </Col>
+          <Col>
+            {" "}
+            <Row>
+              <Col>Global State Management</Col>
+              <Col>
+                <AiFillStar />
+                <AiFillStar />
+                <AiFillStar />
+              </Col>
+            </Row>
+            <Row>
+              Has implemented it on few projects and knows the broad
+              implementation.
+            </Row>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col>
+            <Row>
+              <Col>Asynchronous Programming</Col>
+              <Col>
+                <AiFillStar />
+                <AiFillStar />
+                <AiFillStar />
+              </Col>
+            </Row>
+            <Row>
+              Has implemented it on few projects and knows the broad
+              implementation.
+            </Row>
+          </Col>
+          <Col>
+            {" "}
+            <Row>
+              <Col>Writing Tests</Col>
+              <Col>
+                <AiFillStar />
+                <AiFillStar />
+                <AiFillStar />
+              </Col>
+            </Row>
+            <Row>
+              Knows about unit testing as a concept but hasn't written a lot of
+              unit tests in production
+            </Row>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Row>
+              <Col>Mocks</Col>
+              <Col>
+                <AiFillStar />
+                <AiFillStar />
+                <AiFillStar />
+              </Col>
+            </Row>
+            <Row>
+              Has implemented it on few projects and knows the broad
+              implementation.
+            </Row>
+          </Col>
+          <Col>
+            {" "}
+            <Row>
+              <Col>SSR and SSG</Col>
+              <Col>
+                <AiFillStar />
+                <AiFillStar />
+                <AiFillStar />
+              </Col>
+            </Row>
+            <Row>
+              Has implemented it on few projects and knows the broad
+              implementation.
+            </Row>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 };
