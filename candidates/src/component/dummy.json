@@ -1,0 +1,59 @@
+{
+    "id":"1",
+    "Name":"Benak Shrayes",
+    "Level":"SDE 2",
+    "NotableSkills":"HTML5,CSS3,BOOTSTRAP,JAVASCRIPT,REACTJS(HOOKS,ROUTER,REDUX)",
+    "Highlight":[
+       "Co-founded a print on demand T-shirt & Pullover manufacturing E-Commerce website called Smartees from 2018-2020 successfully generating 7-8 L a year.",
+       "Developed the e-commerce website for my startup from scratch using HTML, CSS, Javascript",
+       "Worked in the technical team of Jobsy for TECHNICAL DISCUSSION FORUM Project, also helped in project documentation and designing part of the web app.",
+       "Successfully bulit websites for clients like Artmeg and Pktrips using tech-stack like HTML,CSS3, Bootstrap,React-Redux."
+    ],
+    "UnderstandingTheProblem":"4",
+    "EdgeCases":"4",
+    "CodeEfficiency":"4",
+    "CSS":"3",
+    "HTMLRating":"3",
+    "HTMLDescription":"Yes, and has knowledge of properly using HTML tags",
+    "JavascriptRating":"3",
+    "JavascriptDescription":"Has used it in a few projects and can describe the commonly used aspects",
+    "DataStructureRatingÇ":"1",
+    "DataStructureDescription":"Candidate is aware of only Array and Object",
+    "LifeCycleMethodsRating":"5",
+    "LifeCycleMethodsRatingDescription":"Knows all of them and in order of the methods being invoked",
+    "HooksRating":"3",
+    "HooksDescription":"Medium (useMemo(), useCallback(), useRef())",
+    "AsynchronousProgrammingRating":"4",
+    "AsynchronousProgrammingDescription":"Has used async/await",
+    "ProgressiveWebAppsRating":"1",
+    "ProgressiveWebAppsDescription":"Not  much idea",
+    "SSRandSSGRating":"0",
+    "SSRandSSGDescription":"No experiance",
+    "GlobalStateManagementRating":"2",
+    "GlobalStateManagementDescription":"Has not used redux, learning it.",
+    "WritingTestsRating":"0",
+    "WritingTestsDescription":"No experience",
+    "MocksRating":"0",
+    "MocksDescription":"No",
+    "WebSecurityRating":"0",
+    "WebSecurityDescriptions":"No knowledge",
+    "Communciationwithteam":"4",
+    "Workingwithteam":"3",
+    "Ownership":"4",
+    "ProjectName":"DISCUSSION FORUM",
+    "ProjectRole":"Front end developer",
+    "ProjectDuration":"3 Months",
+    "ProjectTeamStructure":"1",
+    "ProjectContribution":"Took complete responsible for front-end and created Landing page Login page for user and Register page for new user Home page consists of new topic,feed from recent search Header component  with search bar  Left and Right component one for displaying user details, one for recently shown interest.",
+    "ProjectTech":"HTML5,CSS3,BOOTSTRAP,REACTJS, REACT HOOKS, REACT ROUTER, REACT REDUX,",
+    "ProjectObjectives":"User can create account User can login User can post his queries  in the form of post Get response to the post from other user and technical expert User can comment,like the other post created by other users Spreading the knowledge in tip of finger",
+    "ProjectDescription":"It is the place where people after creating their account can share their ideas and make discussions on various topics. It’s a technical discussion form, where users will able to create a post as questions and get answers on various technical and other topics.",
+
+    "notanleproject":[
+        {
+            "tiitle": "tit"
+        }
+    ]
+
+}
+

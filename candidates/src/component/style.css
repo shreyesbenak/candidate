@@ -1,0 +1,6 @@
+.heading1 {
+  margin-left: 10rem;
+  /* align-content: space-between; */
+  display: flex;
+  align-items: center;
+}
