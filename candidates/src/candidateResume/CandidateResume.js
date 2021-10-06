@@ -13,13 +13,11 @@ export const CandidateResume = () => {
     <div>
       <WebSite />
       <div style={{ display: "flex" }}>
-        <h3>Name-</h3>
-        <h4>Satheesh hi hello bye bye Kumar </h4>
-        <h3>( SDE-2 )</h3>
+        <spam>Name- Satheesh Kumar ( SDE-2 ) </spam>
       </div>
       <div style={{ display: "flex" }}>
-        <h3>Notable Skills</h3>
-        <h4>Kotlin, MVVM, Android, Dagger, Room, RxJava </h4>
+        <span>Notable Skills</span>
+        <span>Kotlin, MVVM, Android, Dagger, Room, RxJava </span>
       </div>
       <div>
         <h2>Highlights</h2>
