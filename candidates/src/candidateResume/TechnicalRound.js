@@ -5,13 +5,15 @@ import { AiFillStar } from "react-icons/ai";
 const TechnicalRound = () => {
   return (
     <div>
-      <h2>TechnicalRound</h2>
+      <h4>TechnicalRound</h4>
 
       <Container fluid>
-        <Row>
+        <Row style={{ marginTop: "1rem", marginBottom: "1rem" }}>
           <Col>
-            <Row>
-              <Col>CSS</Col>
+            <Row style={{ marginTop: "1rem", marginBottom: "1rem" }}>
+              <Col>
+                <span className="technicalRound_span">CSS</span>
+              </Col>
               <Col>
                 <AiFillStar />
                 <AiFillStar />
@@ -25,8 +27,10 @@ const TechnicalRound = () => {
           </Col>
           <Col>
             {" "}
-            <Row>
-              <Col>HTML</Col>
+            <Row style={{ marginTop: "1rem", marginBottom: "1rem" }}>
+              <Col>
+                <span className="technicalRound_span">HTML</span>
+              </Col>
               <Col>
                 <AiFillStar />
                 <AiFillStar />
@@ -42,8 +46,10 @@ const TechnicalRound = () => {
 
         <Row>
           <Col>
-            <Row>
-              <Col>Data Structure</Col>
+            <Row style={{ marginTop: "1rem", marginBottom: "1rem" }}>
+              <Col>
+                <span className="technicalRound_span">Data Structure</span>
+              </Col>
               <Col>
                 <AiFillStar />
                 <AiFillStar />
@@ -57,8 +63,10 @@ const TechnicalRound = () => {
           </Col>
           <Col>
             {" "}
-            <Row>
-              <Col>Life Cycle Methods</Col>
+            <Row style={{ marginTop: "1rem", marginBottom: "1rem" }}>
+              <Col>
+                <span className="technicalRound_span">Life Cycle Methods</span>
+              </Col>
               <Col>
                 <AiFillStar />
                 <AiFillStar />
@@ -74,8 +82,10 @@ const TechnicalRound = () => {
 
         <Row>
           <Col>
-            <Row>
-              <Col>Hooks</Col>
+            <Row style={{ marginTop: "1rem", marginBottom: "1rem" }}>
+              <Col>
+                <span className="technicalRound_span">Hooks</span>
+              </Col>
               <Col>
                 <AiFillStar />
                 <AiFillStar />
@@ -89,8 +99,12 @@ const TechnicalRound = () => {
           </Col>
           <Col>
             {" "}
-            <Row>
-              <Col>Global State Management</Col>
+            <Row style={{ marginTop: "1rem", marginBottom: "1rem" }}>
+              <Col>
+                <span className="technicalRound_span">
+                  Global State Management
+                </span>
+              </Col>
               <Col>
                 <AiFillStar />
                 <AiFillStar />
@@ -106,8 +120,12 @@ const TechnicalRound = () => {
 
         <Row>
           <Col>
-            <Row>
-              <Col>Asynchronous Programming</Col>
+            <Row style={{ marginTop: "1rem", marginBottom: "1rem" }}>
+              <Col>
+                <span className="technicalRound_span">
+                  Asynchronous Programming
+                </span>
+              </Col>
               <Col>
                 <AiFillStar />
                 <AiFillStar />
@@ -121,8 +139,10 @@ const TechnicalRound = () => {
           </Col>
           <Col>
             {" "}
-            <Row>
-              <Col>Writing Tests</Col>
+            <Row style={{ marginTop: "1rem", marginBottom: "1rem" }}>
+              <Col>
+                <span className="technicalRound_span">Writing Tests</span>
+              </Col>
               <Col>
                 <AiFillStar />
                 <AiFillStar />
@@ -137,8 +157,10 @@ const TechnicalRound = () => {
         </Row>
         <Row>
           <Col>
-            <Row>
-              <Col>Mocks</Col>
+            <Row style={{ marginTop: "1rem", marginBottom: "1rem" }}>
+              <Col>
+                <span className="technicalRound_span">Mocks</span>
+              </Col>
               <Col>
                 <AiFillStar />
                 <AiFillStar />
@@ -152,8 +174,10 @@ const TechnicalRound = () => {
           </Col>
           <Col>
             {" "}
-            <Row>
-              <Col>SSR and SSG</Col>
+            <Row style={{ marginTop: "1rem", marginBottom: "1rem" }}>
+              <Col>
+                <span className="technicalRound_span">SSR and SSG</span>
+              </Col>
               <Col>
                 <AiFillStar />
                 <AiFillStar />

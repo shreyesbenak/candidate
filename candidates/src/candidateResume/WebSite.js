@@ -5,7 +5,7 @@ const WebSite = () => {
   return (
     <div>
       <Container fluid>
-        <Row>
+        <Row style={{ marginTop: "1rem", marginBottom: "0.5rem" }}>
           <Col>LOGO</Col>
           <Col style={{ textAlign: "right" }}>
             <span>

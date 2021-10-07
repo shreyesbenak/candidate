@@ -8,19 +8,22 @@ import TechnicalRound from "./TechnicalRound";
 
 import WebSite from "./WebSite";
 
+import "./style.css";
+
 export const CandidateResume = () => {
   return (
-    <div>
+    <div className="main_div">
       <WebSite />
       <div style={{ display: "flex" }}>
-        <spam>Name- Satheesh Kumar ( SDE-2 ) </spam>
+        <spam className="nameSpan">Name- </spam>
+        <span>Satheesh Kumar</span> <span className="nameSpan">( SDE-2 )</span>
       </div>
       <div style={{ display: "flex" }}>
-        <span>Notable Skills</span>
-        <span>Kotlin, MVVM, Android, Dagger, Room, RxJava </span>
+        <span className="nameSpan">Notable Skills</span>
+        <span> Kotlin, MVVM, Android, Dagger, Room, RxJava </span>
       </div>
       <div>
-        <h2>Highlights</h2>
+        <h4>Highlights</h4>
         <ul>
           <li>
             Android developer with 6 years of experience and 3 years of Kotlin

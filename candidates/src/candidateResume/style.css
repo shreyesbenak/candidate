@@ -1,0 +1,17 @@
+.nameSpan {
+  font-weight: 800;
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.body {
+  margin-left: 2rem;
+}
+
+.main_div {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.technicalRound_span {
+  font-weight: 500;
+}

@@ -2,14 +2,15 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import { AiFillStar } from "react-icons/ai";
 
+import "./Atitude.css";
 const AptitudeRound = () => {
   return (
     <>
-      <h2>Aptitude Round</h2>
+      <h4>Aptitude Round</h4>
 
       <Container fluid>
         <Row>
-          <Col>
+          <Col style={{ marginTop: "1rem" }}>
             <Row>
               <Col>Grasping the problem</Col>
               <Col>
@@ -19,7 +20,7 @@ const AptitudeRound = () => {
               </Col>
             </Row>
           </Col>
-          <Col>
+          <Col style={{ marginTop: "1rem" }}>
             <Row>
               <Col>Code Efficiency</Col>
               <Col>
@@ -29,7 +30,7 @@ const AptitudeRound = () => {
             </Row>
           </Col>
         </Row>
-        <Row lg={6}>
+        <Row lg={6} style={{ marginTop: "1rem", marginBottom: "1rem" }}>
           <Col lg={3}>Covering Edge Cases</Col>
           <Col lg={3}>
             <AiFillStar />
