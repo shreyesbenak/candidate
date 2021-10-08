@@ -14,9 +14,11 @@ const AptitudeRound = () => {
             <Row>
               <Col>Grasping the problem</Col>
               <Col>
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gray" }} />
+                <AiFillStar style={{ color: "gray" }} />
               </Col>
             </Row>
           </Col>
@@ -24,8 +26,11 @@ const AptitudeRound = () => {
             <Row>
               <Col>Code Efficiency</Col>
               <Col>
-                <AiFillStar />
-                <AiFillStar />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gray" }} />
+                <AiFillStar style={{ color: "gray" }} />
+                <AiFillStar style={{ color: "gray" }} />
               </Col>
             </Row>
           </Col>
@@ -33,9 +38,11 @@ const AptitudeRound = () => {
         <Row lg={6} style={{ marginTop: "1rem", marginBottom: "1rem" }}>
           <Col lg={3}>Covering Edge Cases</Col>
           <Col lg={3}>
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
+            <AiFillStar style={{ color: "gold" }} />
+            <AiFillStar style={{ color: "gold" }} />
+            <AiFillStar style={{ color: "gold" }} />
+            <AiFillStar style={{ color: "gray" }} />
+            <AiFillStar style={{ color: "gray" }} />
           </Col>
         </Row>
       </Container>

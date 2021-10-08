@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row, Card, Container } from "react-bootstrap";
+import { Col, Row, Container } from "react-bootstrap";
 import { AiFillStar } from "react-icons/ai";
 
 const TechnicalRound = () => {
@@ -15,9 +15,11 @@ const TechnicalRound = () => {
                 <span className="technicalRound_span">CSS</span>
               </Col>
               <Col>
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gray" }} />
+                <AiFillStar style={{ color: "gray" }} />
               </Col>
             </Row>
             <Row>
@@ -32,9 +34,11 @@ const TechnicalRound = () => {
                 <span className="technicalRound_span">HTML</span>
               </Col>
               <Col>
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gray" }} />
+                <AiFillStar style={{ color: "gray" }} />
               </Col>
             </Row>
             <Row>
@@ -51,9 +55,11 @@ const TechnicalRound = () => {
                 <span className="technicalRound_span">Data Structure</span>
               </Col>
               <Col>
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gray" }} />
+                <AiFillStar style={{ color: "gray" }} />
               </Col>
             </Row>
             <Row>
@@ -68,9 +74,11 @@ const TechnicalRound = () => {
                 <span className="technicalRound_span">Life Cycle Methods</span>
               </Col>
               <Col>
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gray" }} />
+                <AiFillStar style={{ color: "gray" }} />
               </Col>
             </Row>
             <Row>
@@ -87,9 +95,11 @@ const TechnicalRound = () => {
                 <span className="technicalRound_span">Hooks</span>
               </Col>
               <Col>
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gray" }} />
+                <AiFillStar style={{ color: "gray" }} />
               </Col>
             </Row>
             <Row>
@@ -106,9 +116,11 @@ const TechnicalRound = () => {
                 </span>
               </Col>
               <Col>
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gray" }} />
+                <AiFillStar style={{ color: "gray" }} />
               </Col>
             </Row>
             <Row>
@@ -127,9 +139,11 @@ const TechnicalRound = () => {
                 </span>
               </Col>
               <Col>
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gray" }} />
+                <AiFillStar style={{ color: "gray" }} />
               </Col>
             </Row>
             <Row>
@@ -144,9 +158,11 @@ const TechnicalRound = () => {
                 <span className="technicalRound_span">Writing Tests</span>
               </Col>
               <Col>
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gray" }} />
+                <AiFillStar style={{ color: "gray" }} />
               </Col>
             </Row>
             <Row>
@@ -162,9 +178,11 @@ const TechnicalRound = () => {
                 <span className="technicalRound_span">Mocks</span>
               </Col>
               <Col>
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gray" }} />
+                <AiFillStar style={{ color: "gray" }} />
               </Col>
             </Row>
             <Row>
@@ -179,9 +197,11 @@ const TechnicalRound = () => {
                 <span className="technicalRound_span">SSR and SSG</span>
               </Col>
               <Col>
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gray" }} />
+                <AiFillStar style={{ color: "gray" }} />
               </Col>
             </Row>
             <Row>

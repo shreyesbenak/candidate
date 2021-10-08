@@ -2,7 +2,7 @@ import React from "react";
 
 const ReachOut = () => {
   return (
-    <div>
+    <div style={{ marginTop: "2rem", marginBottom: "2rem" }}>
       <hr />
       <span style={{ marginLeft: "35%" }}>
         Reach out to us at :

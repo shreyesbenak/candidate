@@ -6,9 +6,14 @@ const WebSite = () => {
     <div>
       <Container fluid>
         <Row style={{ marginTop: "1rem", marginBottom: "0.5rem" }}>
-          <Col>LOGO</Col>
-          <Col style={{ textAlign: "right" }}>
-            <span>
+          <Col>
+            <img
+              src="https://getdefault.in/wp-content/uploads/2020/04/Logo_Black_White_BG_cropped.png"
+              style={{ width: "25% " }}
+            />
+          </Col>
+          <Col style={{ textAlign: "right", paddingTop: "1rem" }}>
+            <span style={{}}>
               Website:<a href="https://getdefault.in/">getdefault.in</a>
             </span>
           </Col>

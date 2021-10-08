@@ -12,9 +12,11 @@ const SoftSkill = () => {
             <Row style={{ marginTop: "1rem", marginBottom: "1rem" }}>
               <Col>Ownership</Col>
               <Col>
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gray" }} />
+                <AiFillStar style={{ color: "gray" }} />
               </Col>
             </Row>
           </Col>
@@ -22,9 +24,11 @@ const SoftSkill = () => {
             <Row style={{ marginTop: "1rem", marginBottom: "1rem" }}>
               <Col>Communication with team</Col>
               <Col>
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gold" }} />
+                <AiFillStar style={{ color: "gray" }} />
+                <AiFillStar style={{ color: "gray" }} />
               </Col>
             </Row>
           </Col>
@@ -32,9 +36,11 @@ const SoftSkill = () => {
         <Row lg={6} style={{ marginTop: "1rem", marginBottom: "1rem" }}>
           <Col lg={3}>Working with team</Col>
           <Col lg={3}>
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
+            <AiFillStar style={{ color: "gold" }} />
+            <AiFillStar style={{ color: "gold" }} />
+            <AiFillStar style={{ color: "gold" }} />
+            <AiFillStar style={{ color: "gray" }} />
+            <AiFillStar style={{ color: "gray" }} />
           </Col>
         </Row>
       </Container>
